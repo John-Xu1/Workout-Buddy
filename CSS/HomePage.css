@@ -1,0 +1,21 @@
+.topBar{
+	-fx-background-color: black;
+}
+
+.topButtons{
+	-fx-background-color: transparent;
+	-fx-background-radius: 20;
+	-fx-text-fill: white;
+	-fx-border-radius: 20;
+	-fx-border-color: white;
+}
+
+.topButtons:hover{
+	-fx-background-color: white;
+	-fx-text-fill: black;
+	-fx-border-radius: 20;
+}
+
+.topButtons:pressed{
+	-fx-background-color: #DCDCDC;
+}

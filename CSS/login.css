@@ -1,0 +1,18 @@
+.sidebar{
+	-fx-background-color: eddf4b;
+}
+
+.enterText{
+	-fx-background-color: transparent;
+	-fx-border-color: D3D3D3;
+	-fx-border-width: 0px 0px 1px 0px;
+}
+
+.buttons{
+	-fx-background-color: eddf4b;
+	-fx-border-radius: 20;
+}
+
+.buttons:hover{
+	-fx-background-color: FFFFE0;
+}

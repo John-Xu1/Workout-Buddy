@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="64.0" layoutY="32.0" text="Customize your own workout">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="41.0" layoutY="184.0" prefHeight="222.0" prefWidth="314.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1026.0" prefWidth="298.0">
+               <children>
+                  <VBox layoutX="14.0" layoutY="25.0" prefHeight="458.0" prefWidth="298.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName0" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration0" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName1" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration1" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName2" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration2" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName3" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration3" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName4" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration4" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName5" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration5" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName6" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration6" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName7" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration7" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName8" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration8" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName9" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration9" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName10" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration10" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName11" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration11" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName12" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration12" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName13" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration13" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName14" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration14" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName15" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration15" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName16" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration16" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName17" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration17" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName18" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration18" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName19" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration19" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName20" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration20" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName21" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration21" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName22" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration22" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="49.0" prefWidth="297.0">
+                           <children>
+                              <TextField fx:id="exerciseName23" prefHeight="25.0" prefWidth="138.0" promptText="Exercise Name">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="exerciseDuration23" alignment="CENTER" prefHeight="25.0" prefWidth="61.0" promptText="Duration">
+                                 <HBox.margin>
+                                    <Insets left="50.0" top="10.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Label text="min">
+                                 <padding>
+                                    <Insets left="10.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <TextField fx:id="numberOfExTextField" layoutX="251.0" layoutY="136.0" prefHeight="25.0" prefWidth="85.0" />
+      <TextField fx:id="durationTextField" layoutX="251.0" layoutY="92.0" prefHeight="25.0" prefWidth="85.0" />
+      <Label layoutX="64.0" layoutY="96.0" text="How long will the workout be?" />
+      <Label layoutX="65.0" layoutY="140.0" text="How many different exercises?" />
+      <Label layoutX="344.0" layoutY="99.0" text="min" />
+   </children>
+</AnchorPane>

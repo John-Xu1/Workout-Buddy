@@ -1,0 +1,28 @@
+.background{
+	-fx-background-color: white;
+}
+
+.textAreas{
+	-fx-background-color: transparent;
+	-fx-border-color: #696969;
+	-fx-border-width: 0px 0px 2px 0px;
+	-fx-prompt-text-fill: #696969;
+}
+
+.labels{
+	-fx-text-fill: eddf4b;
+	-fx-font-weight: BOLD;
+}
+
+.registerButton{
+	-fx-background-color: eddf4b;
+	-fx-background-radius: 30;
+	-fx-border-radius: 30;
+	-fx-border-color: #696969;
+	-fx-text-fill: #696969;
+}
+
+.registerButton:hover{
+	-fx-background-color: transparent;
+	-fx-border-radius: 30;
+}
